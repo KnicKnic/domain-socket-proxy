@@ -1,0 +1,4 @@
+/unix.socket
+*.exe
+*.exe~
+.vscode/**
