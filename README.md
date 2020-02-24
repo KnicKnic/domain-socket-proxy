@@ -35,7 +35,7 @@ launch the server
 The above example uses the file path `.\unix.socket` for the unix domain socket
 
 ## Container
-You can use a container for the forwarder as well
+You can use a container for the serve as well
 
 ```txt
 docker run -v c:\tmp:c:\tmp --rm --name socket knicknic/domain-socket-proxy:v1.0.0 --path c:\tmp\unix.socket --address :9999
